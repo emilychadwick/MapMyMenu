@@ -1,3 +1,115 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* body */
+
+body {
+  padding-top: 40px;
+  }
+
+/* navbar */
+
+.navbar { background-color: white}
+
+.navbar-inverse {
+
+  .navbar-nav>li>a:hover {
+    color: #add8e6;
+    text-decoration: none;
+  }
+
+  .navbar-toggle {
+    background-color: #bebebe;
+    border-color: #bebebe;
+  }
+
+  .navbar-toggle:hover {
+    background-color: #bebebe;
+  }
+
+  .navbar-toggle:focus {
+    background-color: #bebebe;
+  }
+
+  .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #bebebe;
+  }
+
+  .navbar-brand {
+    text-transform: uppercase;
+
+    a {
+      color: #bebebe;
+    }
+  }
+
+  .navbar-brand>a:hover {
+    color: #add8e6;
+    text-decoration: none;
+  }
+
+}
+
+/* index */
+
+.main-img {
+  background-size: cover;
+  align: center;
+  height: auto;
+  width: 100%;
+}
+
+#index {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#index h1 {
+  position: absolute;
+  color: white;
+  width: 100%;
+  top: 45%;
+  font-size: 5.5em;
+}
+
+/* typography */
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #add8e6;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #add8e6;
+  text-align: center;
+}
+
+h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #bebebe;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
