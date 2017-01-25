@@ -3028,3 +3028,19 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 37ms (Views: 32.9ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/products" for ::1 at 2017-01-24 18:27:30 -0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 195ms (Views: 190.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products" for ::1 at 2017-01-24 18:30:14 -0800
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 63ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
